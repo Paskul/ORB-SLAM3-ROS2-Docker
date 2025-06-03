@@ -16,9 +16,9 @@ ORB_SLAM3_RGBD_ROS2:
     # the below parameters are used to adjust the initial pose with respect to the map. 
     # the camera pose maybe translated and rotated with respect to the base_footprint. The wrapper publishes map->base_footprint. Hence this relative transform needs to be accounted.
     # the below transform is the transform from base_link -> camera_link
-    robot_x: 0.0
-    robot_y: 0.0
-    robot_z: 0.0 #1.0
+    robot_x: 0.1524
+    robot_y: -0.254
+    robot_z: 0.5588
     robot_qx: 0.0
     robot_qy: 0.0
     robot_qz: 0.0
